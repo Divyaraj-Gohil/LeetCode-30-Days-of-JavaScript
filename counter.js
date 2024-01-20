@@ -1,4 +1,4 @@
-const createCounter = function(n) {
+const createCounter = (n)=> {
 let count = n
    return ()=> {
        count++
